@@ -1,5 +1,5 @@
 ---
-title: "ECE/CS 552 Introcution to Computer Architecture"
+title: "ECE/CS 552 Introduction to Computer Architecture"
 collection: teaching
 type: "Instructor: Prof. Matt Sinclair"
 permalink:
