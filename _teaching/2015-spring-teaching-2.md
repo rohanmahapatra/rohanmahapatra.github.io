@@ -4,7 +4,7 @@ collection: teaching
 type: "Workshop"
 permalink:
 venue: "UW Madison, Computer Sciences Department"
-date: Spring 2019
+date: 01-01-2019
 location: "City, Country"
 ---
 
