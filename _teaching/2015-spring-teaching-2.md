@@ -1,7 +1,7 @@
 ---
 title: "ECE/CS 552 Introcution to Computer Architecture"
 collection: teaching
-type: "Workshop"
+type: "Instructor: Prof. Matt Sinclair"
 permalink:
 venue: "UW Madison, Computer Sciences Department"
 date: 01-01-2019
