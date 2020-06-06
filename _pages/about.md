@@ -27,19 +27,19 @@ Experiences
  ======
 
  * Research Assistant - UC San Diego, 2020 - till date
-   * Supervisor: Prof. [Hadi Esmaeilzadeh](http://cseweb.ucsd.edu/~hadi/?_ga=2.110419333.1876160750.1591468451-1462078445.1575245181)
+  * Supervisor: Prof. [Hadi Esmaeilzadeh](http://cseweb.ucsd.edu/~hadi/?_ga=2.110419333.1876160750.1591468451-1462078445.1575245181)
    
  * Graduate Student Researcher and Teaching Assistant - UW Madison, 2018 - 20202
-   * Supervisor:  Prof. [Matt Sinclair](http://pages.cs.wisc.edu/~sinclair/)
-   * Master's Thesis:  Optimizing Fine-Grained Synchronzation in Graphics Processing Units
+  * Supervisor:  Prof. [Matt Sinclair](http://pages.cs.wisc.edu/~sinclair/)
+  * Master's Thesis:  Optimizing Fine-Grained Synchronzation in Graphics Processing Units
  
  * Intern, Qualcomm Inc., San Diego , May 2019 - August 2019
-   * Performance modeling, analysis and hardware implementation of bandwidth compression techniques at Last Level Cache
-  
+  * Performance modeling, analysis and hardware implementation of bandwidth compression techniques at Last Level Cache
+   
  * SoC Design Engineer, Intel Corporation, Bangalore , June 2016 - July 2018
-   * Worked on feature development in Coherent Interconnect Fabric connecting IA cores, DDR Memories and I/O peripherals.
-   * Worked on integrating I/O controllers like I2C, I3C, SPI and UARTs into next generation mobile SOCs
-   * Responsible for designing and integrating security modules in Next Gen Modem
+  * Worked on feature development in Coherent Interconnect Fabric connecting IA cores, DDR Memories and I/O peripherals.
+  * Worked on integrating I/O controllers like I2C, I3C, SPI and UARTs into next generation mobile SOCs
+  * Responsible for designing and integrating security modules in Next Gen Modem
   
 * Summer Research Intern, Indian Institute of Science, Bangalore , May 2015 - August 2015
    * Transistor fabrication at National Nanofabrication Center and Electrical characterization of HEMT's
