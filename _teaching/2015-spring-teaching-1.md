@@ -1,5 +1,5 @@
 ---
-title: "ECE 353 Introcution to Microprocessor Systems"
+title: "ECE 353 Introduction to Microprocessor Systems"
 collection: teaching
 type: "Instructor: Prof. Joshep Krachey"
 permalink:
