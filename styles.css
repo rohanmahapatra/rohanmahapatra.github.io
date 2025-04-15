@@ -34,8 +34,8 @@ header {
 }
 
 .name {
-    font-family: 'Raleway', sans-serif; /* Changed from Poppins */
-    font-size: 2.8em; /* Slightly larger to suit the thinner weight */
+    font-family: 'Raleway', sans-serif; /* Changed to Raleway */
+    font-size: 2.8em; /* Adjusted size */
     font-weight: 200; /* Use Raleway ExtraLight */
     letter-spacing: 1px;
     color: #232323;
@@ -158,19 +158,20 @@ a:hover {
 .about-details {
     margin-left: auto;
     margin-right: auto;
-    font-size: 0.95em; /* Match other list items */
+    font-size: 0.95em;
 }
 
 .about-details b {
     display: block;
     margin-bottom: 0.2em;
-    color: #232323; /* Ensure bold text is dark */
-    font-weight: 600; /* Standard bold */
+    color: #232323;
+    font-weight: 600;
 }
+
 
 /* Research section styles - Removed border-bottom */
 .research-item {
-    margin-bottom: 2em; /* Spacing between research items */
+    margin-bottom: 2em;
     padding-bottom: 0;
     /* border-bottom: Removed */
 }
@@ -179,7 +180,7 @@ a:hover {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 1.05em;
     font-weight: 700;
-    color: #233C67; /* Original blue for paper titles */
+    color: #233C67;
     margin-bottom: 0.2em;
 }
 
@@ -203,7 +204,7 @@ a:hover {
 
 .paper-links a {
     font-size: 0.9em;
-    color: #233C67; /* Match default link color */
+    color: #233C67;
     margin-right: 1em;
     font-family: 'Inter', Arial, sans-serif;
 }
@@ -217,9 +218,9 @@ a:hover {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 1em;
     font-weight: 600;
-    color: #233C67; /* Original link blue */
-    margin-top: 1.5em; /* More space above the year */
-    margin-bottom: 0.5em; /* More space below the year */
+    color: #233C67;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
     letter-spacing: 1px;
 }
 
@@ -230,17 +231,17 @@ a:hover {
 }
 
 .pub-list li {
-    margin-bottom: 1.5em; /* More space between publication entries */
+    margin-bottom: 1.5em; /* Space between publication entries */
     font-size: 0.95em;
-    line-height: 1.5; /* Adjust line height within the entry */
+    line-height: 1.5;
 }
 
 .pub-title { /* Style for the linked paper title */
-    font-weight: 600; /* Make title slightly bolder */
-    color: #233C67; /* Use the default link color */
+    font-weight: 600;
+    color: #233C67;
     text-decoration: none;
-    display: block; /* Put title on its own line */
-    margin-bottom: 0.2em; /* Space below title */
+    display: block;
+    margin-bottom: 0.2em;
 }
 
 .pub-title:hover {
@@ -248,24 +249,22 @@ a:hover {
 }
 
 .pub-authors { /* Style for the author list */
-    color: #333; /* Dark gray for authors */
-    margin-bottom: 0.2em; /* Space below authors */
+    color: #333;
+    margin-bottom: 0.2em;
 }
 
 .pub-authors b { /* Style for your bolded name */
-    color: #000; /* Make your name black */
-    font-weight: 600; /* Ensure it's bold */
+    color: #000;
+    font-weight: 600;
 }
 
 .pub-venue { /* Style for the venue line */
-    color: #555; /* Lighter gray for venue */
+    color: #555;
     font-size: 0.95em;
 }
 
-.conf-venue { /* Style for conference/journal names within the venue line */
-    color: #4682B4; /* SteelBlue color */
-    font-weight: 600;
-}
+/* .conf-venue rule is already defined above in Research styles */
+
 
 /* Open Source section styles */
 .os-list {
@@ -294,6 +293,23 @@ a:hover {
     margin-bottom: 0.5em;
 }
 
+#contact .footer-links {
+    margin-top: 1em;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#contact .footer-links a {
+    color: #233C67;
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+#contact .footer-links a:hover {
+    text-decoration: underline;
+}
+
+
 /* Smooth scrolling for anchor links */
 html {
     scroll-behavior: smooth;
@@ -317,7 +333,7 @@ html {
         margin: 1.5rem auto;
     }
     .name {
-        font-size: 2em;
+        font-size: 2.2em; /* Adjust Raleway size for mobile */
     }
     h2 {
         font-size: 1.1em;
@@ -326,3 +342,4 @@ html {
         text-align: left; /* Justify looks bad on narrow screens */
     }
 }
+
