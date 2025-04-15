@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rohan Mahapatra - Academic Website</title>
-    <!-- Google Fonts: Poppins Light for name, Montserrat for headings, Inter for body -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Raleway ExtraLight for name, Montserrat for headings, Inter for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700&family=Raleway:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Rest of the body remains the same as the previous correct version -->
     <header>
         <div class="profile-container">
             <img src="profile.jpg" alt="Rohan Mahapatra" class="profile-img">
@@ -19,6 +18,7 @@
                     PhD Candidate, Computer Science and Engineering<br>
                     University of California, San Diego<br>
                     <span class="header-links">
+                        Email: rohan &lt;at&gt; ucsd.edu | <!-- Added Email -->
                         <a href="https://scholar.google.com/citations?user=XXXX" target="_blank">Google Scholar</a> |
                         <a href="https://www.linkedin.com/in/rohanmahapatra" target="_blank">LinkedIn</a>
                     </span>
@@ -59,7 +59,7 @@
 
         <section id="research">
             <h2>RESEARCH</h2>
-            <div class="research-item"> {/* No border-bottom applied via CSS */}
+            <div class="research-item"> <!-- Comment Removed -->
                 <div class="paper-title">In-Storage Acceleration of Retrieval-Augmented Generation</div>
                 <div class="paper-venue"><span class="conf-venue">ISCA 2025</span></div>
                 <div class="paper-desc">
@@ -70,7 +70,7 @@
                     <a href="https://arxiv.org/abs/2504.12345" target="_blank">[arXiv]</a>
                 </div>
             </div>
-            <div class="research-item"> {/* No border-bottom applied via CSS */}
+            <div class="research-item"> <!-- Comment Removed -->
                 <div class="paper-title">In-Storage Secure Multi-Party Acceleration for Inference Privacy</div>
                 <div class="paper-venue"><span class="conf-venue">Under Submission</span></div>
                 <div class="paper-desc">
@@ -80,7 +80,7 @@
                     <a href="https://github.com/yourusername/smpc-storage" target="_blank">[Code]</a>
                 </div>
             </div>
-            <div class="research-item"> {/* No border-bottom applied via CSS */}
+            <div class="research-item"> <!-- Comment Removed -->
                 <div class="paper-title">Domain-Specific Computational Storage for Serverless Computing</div>
                 <div class="paper-venue"><span class="conf-venue">ASPLOS 2024</span></div>
                 <div class="paper-desc">
@@ -90,7 +90,7 @@
                     <a href="https://github.com/yourusername/serverless-storage" target="_blank">[Code]</a>
                 </div>
             </div>
-            <div class="research-item"> {/* No border-bottom applied via CSS */}
+            <div class="research-item"> <!-- Comment Removed -->
                 <div class="paper-title">Tandem Processor: Grappling with Emerging Operators in Neural Networks</div>
                 <div class="paper-venue"><span class="conf-venue">ASPLOS 2024</span></div>
                 <div class="paper-desc">
@@ -100,7 +100,7 @@
                     <a href="https://github.com/yourusername/tandem-processor" target="_blank">[Code]</a>
                 </div>
             </div>
-            <div class="research-item"> {/* No border-bottom applied via CSS */}
+            <div class="research-item"> <!-- Comment Removed -->
                 <div class="paper-title">Data Motion Acceleration: Chaining Cross-Domain Multi Accelerators</div>
                 <div class="paper-venue"><span class="conf-venue">HPCA 2024</span></div>
                 <div class="paper-desc">
@@ -182,10 +182,12 @@
             <h2>CONTACT</h2>
             <p>Email: rohan &lt;at&gt; ucsd.edu</p>
             <p>Office: Department of Computer Science and Engineering, UC San Diego</p>
-            <p>
-                <!-- Google Scholar link moved to header -->
-                <a href="https://github.com/rohanmahapatra" target="_blank">GitHub</a>
-                <!-- LinkedIn link moved to header -->
+            <!-- Updated Contact Links -->
+            <p class="footer-links">
+                <a href="mailto:rohan@ucsd.edu">Email</a> | <!-- Use mailto link -->
+                <a href="https://github.com/rohanmahapatra" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/rohanmahapatra" target="_blank">LinkedIn</a> |
+                <a href="https://scholar.google.com/citations?user=XXXX" target="_blank">Google Scholar</a>
             </p>
         </section>
     </main>

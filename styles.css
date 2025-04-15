@@ -34,9 +34,9 @@ header {
 }
 
 .name {
-    font-family: 'Poppins', sans-serif; /* Changed from Montserrat */
-    font-size: 2.6em; /* Slightly larger to compensate for lighter weight */
-    font-weight: 300; /* Use Poppins Light */
+    font-family: 'Raleway', sans-serif; /* Changed from Poppins */
+    font-size: 2.8em; /* Slightly larger to suit the thinner weight */
+    font-weight: 200; /* Use Raleway ExtraLight */
     letter-spacing: 1px;
     color: #232323;
     margin-bottom: 0.2em;
