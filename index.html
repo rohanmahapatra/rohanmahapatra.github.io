@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan Mahapatra - Academic Website</title>
+    <!-- Google Fonts: Montserrat for name/headings, Inter for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="profile.jpg" alt="Rohan Mahapatra" class="profile-img">
+            <div>
+                <h1 class="name">Rohan Mahapatra</h1>
+                <p class="description">
+                    PhD Candidate, Computer Science and Engineering<br>
+                    University of California, San Diego
+                </p>
+            </div>
+        </div>
+        <nav>
+            <div class="nav-line"></div>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#open-source">Open Source</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#notes">Notes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-line"></div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>ABOUT ME</h2>
+            <p class="about-justified">
+                My research is in architecting next-generation Inference-as-a-Service (INFaaS) systems by embedding programmable computation within storage and memory hierarchies to overcome the performance limitations of conventional disaggregated designs. Recently, I am working on developing unified compilation frameworks for complex cross-domain AI applications like Retrieval-Augmented Generation (RAG) and creating specialized hardware acceleration techniques for robotics platforms. I am also a core contributor to GeneSys, an open-source, parametrizable accelerator generator with a retargetable compiler that facilitates rapid hardware-software co-design for novel AI systems.
+            </p>
+            <div class="about-details" style="margin-top:2em;">
+                <b>Education:</b><br>
+                Ph.D., Computer Science and Engineering, UC San Diego, 2020-2025<br>
+                M.S., Electrical Engineering, University of Wisconsin-Madison, 2018-2020<br>
+                B.Tech, Electronics Engineering, NIT Sikkim, 2012-2016
+                <br><br>
+                <b>Honors & Awards:</b><br>
+                IEEE Micro Top Picks Honorable Mention (2025), ACM Highlight (2024), Qualcomm Innovation Fellowship Finalist, PhD Fellowship (UCSD), and more.
+            </div>
+        </section>
+
+        <section id="research">
+            <h2>RESEARCH</h2>
+            <div class="research-item">
+                <div class="paper-title">In-Storage Acceleration of Retrieval-Augmented Generation</div>
+                <div class="paper-venue">ISCA 2025</div>
+                <div class="paper-desc">
+                    Deployed and analyzed end-to-end RAGs on Amazon AWS, identifying retrieval as the primary performance bottleneck. Proposed a polymorphic in-storage accelerator to support diverse RAG algorithms and dynamic data structures, reducing data movement and improving throughput (3.6× over Nvidia A100).
+                </div>
+                <div class="paper-links">
+                    <a href="https://github.com/yourusername/rag-accel" target="_blank">[Code]</a>
+                    <a href="https://arxiv.org/abs/2504.12345" target="_blank">[arXiv]</a>
+                </div>
+            </div>
+            <div class="research-item">
+                <div class="paper-title">In-Storage Secure Multi-Party Acceleration for Inference Privacy</div>
+                <div class="paper-venue">Under Submission</div>
+                <div class="paper-desc">
+                    Proposed embedding accelerators within storage devices for scalable, privacy-preserving neural inference, improving performance (3.9×) and energy efficiency (11.5×).
+                </div>
+                <div class="paper-links">
+                    <a href="https://github.com/yourusername/smpc-storage" target="_blank">[Code]</a>
+                </div>
+            </div>
+            <div class="research-item">
+                <div class="paper-title">Domain-Specific Computational Storage for Serverless Computing</div>
+                <div class="paper-venue">ASPLOS 2024</div>
+                <div class="paper-desc">
+                    Proposed computation-in-storage for serverless apps, minimizing data transfer. Designed and evaluated 650+ accelerator configs, outperforming high-end GPUs (2.7× over RTX 2080Ti).
+                </div>
+                <div class="paper-links">
+                    <a href="https://github.com/yourusername/serverless-storage" target="_blank">[Code]</a>
+                </div>
+            </div>
+            <div class="research-item">
+                <div class="paper-title">Tandem Processor: Grappling with Emerging Operators in Neural Networks</div>
+                <div class="paper-venue">ASPLOS 2024</div>
+                <div class="paper-desc">
+                    Addressed bottlenecks in LLMs with non-GEMM layers. Contributed baseline results, GPU evaluation, and simulator implementation. IEEE Micro Top Picks Honorable Mention.
+                </div>
+                <div class="paper-links">
+                    <a href="https://github.com/yourusername/tandem-processor" target="_blank">[Code]</a>
+                </div>
+            </div>
+            <div class="research-item">
+                <div class="paper-title">Data Motion Acceleration: Chaining Cross-Domain Multi Accelerators</div>
+                <div class="paper-venue">HPCA 2024</div>
+                <div class="paper-desc">
+                    Integrated a data restructuring unit (DRX) into accelerators, enabling direct data interoperability and reducing CPU reliance in chaining.
+                </div>
+                <div class="paper-links">
+                    <a href="https://github.com/yourusername/drx" target="_blank">[Code]</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2>PUBLICATIONS</h2>
+            <div class="pub-year">2025</div>
+            <ul class="pub-list">
+                <li>R. Mahapatra, H. Santhanam, C. Priebe, H. Xu, H. Esmaeilzadeh. <i>In-storage acceleration of retrieval-augmented generation.</i> ISCA 2025.</li>
+            </ul>
+            <div class="pub-year">2024</div>
+            <ul class="pub-list">
+                <li>H. Esmaeilzadeh, S. Ghodrati, A. Kahng, J.K. Kim, S. Kinzer, S. Kundu, R. Mahapatra, et al. <i>An open-source ML-based full-stack optimization framework for ML accelerators.</i> ACM TDAES, July 2024. (ACM Highlight)</li>
+                <li>R. Mahapatra, S. Ghodrati, B.H. Ahn, S. Kinzer, S.T. Wang, H. Xu, L. Karthikeyan, H. Sharma, A. Yazdanbakhsh, M. Alian, H. Esmaeilzadeh. <i>In-storage domain-specific acceleration for serverless computing.</i> April 2024.</li>
+                <li>S. Ghodrati, S. Kinzer, H. Xu, R. Mahapatra, et al. <i>Tandem processor: Grappling with emerging operators in neural networks.</i> April 2024. (IEEE MICRO Top Picks Honorable Mention)</li>
+                <li>S.T. Wang, H. Xu, A. Mamandipoor, R. Mahapatra, et al. <i>Data motion acceleration: Chaining cross-domain multi accelerators.</i> HPCA 2024.</li>
+            </ul>
+            <div class="pub-year">2023</div>
+            <ul class="pub-list">
+                <li>D.K. Wang, J. Lou, N. Jin, E. Mascarenhas, R. Mahapatra, et al. <i>Mesa: Microarchitecture extensions for spatial architecture generation.</i> ISCA 2023.</li>
+                <li>S. Kinzer, S. Ghodrati, R. Mahapatra, et al. <i>Restoring the broken covenant between compilers and deep learning accelerators.</i> arXiv 2023.</li>
+                <li>P. Dalmia, R. Mahapatra, J. Intan, D. Negrut, M.D. Sinclair. <i>Improving the scalability of GPU synchronization primitives.</i> IEEE TPDS 2023.</li>
+            </ul>
+            <div class="pub-year">2022</div>
+            <ul class="pub-list">
+                <li>H. Esmaeilzadeh, S. Ghodrati, A.B. Kahng, J.K. Kim, S. Kinzer, S. Kundu, R. Mahapatra, et al. <i>Physically accurate learning-based performance prediction of hardware-accelerated ML algorithms.</i> MLCAD 2022.</li>
+                <li>J.K. Kim, B.H. Ahn, S. Kinzer, S. Ghodrati, R. Mahapatra, et al. <i>Yin-yang: Programming abstractions for cross-domain multi-acceleration.</i> IEEE Micro, Aug 2022.</li>
+                <li>R. Mahapatra, B.H. Ahn, S.T. Wang, H. Xu, H. Esmaeilzadeh. <i>Exploring efficient ML-based scheduler for microservices in heterogenous clusters.</i> MLArchSys, ISCA Workshop, May 2022.</li>
+                <li>P. Dalmia, R. Mahapatra, M.D. Sinclair. <i>Only buffer when you need to: Reducing on-chip GPU traffic with reconfigurable local atomic buffers.</i> HPCA 2022.</li>
+            </ul>
+            <div class="pub-year">Earlier</div>
+            <ul class="pub-list">
+                <li>H. Esmaeilzadeh, S. Ghodrati, J. Gu, S. Guo, A.B. Kahng, J.K. Kim, S. Kinzer, R. Mahapatra, et al. <i>Verigood-ml: An open-source flow for automated ml hardware synthesis.</i> ICCAD 2021.</li>
+                <li>B.R. Gangadari, S.R. Ahamed, R. Mahapatra, R.K. Sinha. <i>Design of cryptographically secure AES S-box using cellular automata.</i> EESCO 2015.</li>
+            </ul>
+        </section>
+
+        <section id="open-source">
+            <h2>OPEN SOURCE</h2>
+            <ul class="os-list">
+                <li>
+                    <a href="https://actlab-genesys.github.io/" target="_blank">GeneSys</a> – Open-source parametrizable accelerator generator and retargetable compiler for rapid prototyping and evaluation of novel hardware designs. <a href="https://www.youtube.com/@actlab-genesys" target="_blank">[YouTube Tutorials]</a>
+                </li>
+                <li>
+                    <a href="https://fhy.readthedocs.io" target="_blank">FhY</a> – Cross-Domain Language (CDL) for enabling multi-acceleration beyond current DSL paradigms.
+                </li>
+                <li>
+                    <a href="https://github.com/yourusername/drx" target="_blank">DRX</a> – Data Restructuring Unit for cross-domain multi-accelerator chaining.
+                </li>
+            </ul>
+            <div style="margin-top:1.5em;">
+                <b>Patent:</b><br>
+                Architectures and instruction sets for non-general matrix multiplication operations. U.S. Patent Application No. 18/803,386, filed August 13, 2024.
+            </div>
+        </section>
+
+        <section id="teaching">
+            <h2>TEACHING</h2>
+            <ul class="teaching-list">
+                <li>
+                    <b>Graduate Seminar: Deep Learning</b> (Spring 2024)<br>
+                    UC San Diego, Department of Computer Science and Engineering
+                </li>
+                <li>
+                    <b>Mentorship</b><br>
+                    Mentored undergraduate and graduate students on research projects in hardware acceleration, machine learning, and systems.
+                </li>
+                <li>
+                    <b>Program Committee Service</b><br>
+                    ICLR Workshop (2025), IEEE CAL (2023-2025), ACM TACO (2024), Eurosys Shadow PC (2023-2024), NeurIPS ML for Systems (2024), ISCA MLArchSys (2022, 2024), IEEE TCAD (2023), ISCA ASSYST (2023), HPCA Artifact Evaluation (2023)
+                </li>
+            </ul>
+        </section>
+
+        <section id="notes">
+            <h2>NOTES</h2>
+            <ul class="notes-list">
+                <li>
+                    <a href="notes/accelerator-tutorial.html">A Practical Guide to Accelerator Prototyping with GeneSys</a>
+                </li>
+                <li>
+                    <a href="notes/secure-inference.html">Secure Multi-Party Computation for Neural Inference</a>
+                </li>
+                <li>
+                    <a href="notes/serverless-compute.html">Serverless Computing Meets Computational Storage</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>CONTACT</h2>
+            <p>Email: <a href="mailto:rohanm@ucsd.edu">rohanm@ucsd.edu</a></p>
+            <p>Office: Department of Computer Science and Engineering, UC San Diego</p>
+            <p>
+                <a href="https://scholar.google.com/citations?user=XXXX" target="_blank">Google Scholar</a> |
+                <a href="https://github.com/rohanmahapatra" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/rohanmahapatra" target="_blank">LinkedIn</a>
+            </p>
+        </section>
+    </main>
+</body>
+</html>
