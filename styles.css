@@ -8,12 +8,12 @@ body {
     font-family: 'Inter', Arial, sans-serif;
     background: #fff;
     color: #232323;
-    line-height: 1.7;
-    font-size: 18px;
+    line-height: 1.6; /* Slightly reduced line height */
+    font-size: 16px; /* Reduced base font size (was 18px) */
 }
 
 header {
-    padding: 2.5rem 0 1.5rem 0;
+    padding: 2rem 0 1rem 0; /* Reduced bottom padding */
     background: #fff;
 }
 
@@ -21,13 +21,13 @@ header {
     display: flex;
     align-items: center;
     max-width: 800px;
-    margin: 0 auto 1.5rem auto;
-    gap: 2rem;
+    margin: 0 auto 1rem auto; /* Reduced bottom margin */
+    gap: 1.5rem; /* Reduced gap between image and text */
 }
 
 .profile-img {
-    width: 90px;
-    height: 90px;
+    width: 75px; /* Reduced size (was 90px) */
+    height: 75px; /* Reduced size (was 90px) */
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #eee;
@@ -35,7 +35,7 @@ header {
 
 .name {
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 2.6em;
+    font-size: 2.4em; /* Reduced size (was 2.6em) */
     font-weight: 600;
     letter-spacing: 1px;
     color: #232323;
@@ -45,7 +45,7 @@ header {
 
 .description {
     color: #555;
-    font-size: 1.1em;
+    font-size: 1em; /* Reduced size (was 1.1em) */
     margin-top: 0.5rem;
     font-family: 'Inter', Arial, sans-serif;
 }
@@ -71,15 +71,15 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin: 0 18px;
+    margin: 0 12px; /* Reduced space between nav items */
 }
 
 nav ul li a {
     text-decoration: none;
     color: #232323;
     font-weight: 500;
-    font-size: 1.08em;
-    padding: 6px 0;
+    font-size: 0.95em; /* Reduced nav font size (was 1.08em) */
+    padding: 4px 0; /* Reduced nav padding */
     border-bottom: 2px solid transparent;
     transition: border-color 0.2s, color 0.2s;
     font-family: 'Montserrat', Arial, sans-serif;
@@ -94,35 +94,28 @@ nav ul li a:focus {
 
 main {
     max-width: 800px;
-    margin: 2.5rem auto;
+    margin: 2rem auto; /* Reduced top/bottom margin */
     padding: 0 1rem;
 }
 
 section {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem; /* Reduced space between sections */
 }
 
-h1, h2 {
+/* Keep h1 for name, adjust h2 for section titles */
+h2 {
     font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
-}
-
-h1 {
-    font-size: 2.8em;
-    margin-bottom: 0.2em;
-}
-
-h2 {
-    font-size: 1.3em;
-    margin-bottom: 1.2em;
+    font-size: 1.15em; /* Reduced section title size (was 1.3em) */
+    margin-bottom: 1em; /* Reduced space below section title */
     color: #232323;
 }
 
 ul {
-    margin-left: 1.2em;
+    margin-left: 1em; /* Reduced list indentation */
     margin-top: 0.5em;
 }
 
@@ -138,7 +131,7 @@ a:hover {
 /* About Me justified text */
 .about-justified {
     color: #555;
-    font-size: 1.1em;
+    font-size: 1em; /* Reduced font size (was 1.1em) */
     margin-top: 0.5rem;
     font-family: 'Inter', Arial, sans-serif;
     text-align: justify;
@@ -149,33 +142,33 @@ a:hover {
 
 /* Research section styles */
 .research-item {
-    margin-bottom: 2.2em;
-    padding-bottom: 1.2em;
+    margin-bottom: 1.8em; /* Reduced space between items */
+    padding-bottom: 1em; /* Reduced bottom padding */
     border-bottom: 1px solid #f0f0f0;
 }
 
 .paper-title {
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 1.15em;
+    font-size: 1.05em; /* Reduced paper title size (was 1.15em) */
     font-weight: 700;
     color: #233C67;
     margin-bottom: 0.2em;
 }
 
 .paper-venue {
-    font-size: 1em;
+    font-size: 0.95em; /* Reduced venue size */
     color: #555;
     margin-bottom: 0.3em;
 }
 
 .paper-desc {
-    font-size: 1em;
+    font-size: 0.95em; /* Reduced description size */
     color: #333;
     margin-bottom: 0.3em;
 }
 
 .paper-links a {
-    font-size: 0.98em;
+    font-size: 0.9em; /* Reduced link size */
     color: #233C67;
     margin-right: 1em;
     font-family: 'Inter', Arial, sans-serif;
@@ -188,44 +181,45 @@ a:hover {
 /* Publications section styles */
 .pub-year {
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 1.08em;
+    font-size: 1em; /* Reduced year size */
     font-weight: 600;
     color: #233C67;
-    margin-top: 1.5em;
+    margin-top: 1.2em; /* Reduced top margin */
     margin-bottom: 0.3em;
     letter-spacing: 1px;
 }
 
 .pub-list {
-    margin-bottom: 0.8em;
+    margin-bottom: 0.6em; /* Reduced bottom margin */
 }
 
 .pub-list li {
-    margin-bottom: 0.4em;
+    margin-bottom: 0.3em; /* Reduced space between publications */
+    font-size: 0.95em; /* Reduced publication text size */
 }
 
 /* Open Source section styles */
 .os-list li {
-    margin-bottom: 0.7em;
-    font-size: 1em;
+    margin-bottom: 0.5em; /* Reduced space */
+    font-size: 0.95em; /* Reduced font size */
 }
 
 /* Teaching section styles */
 .teaching-list li {
-    margin-bottom: 1em;
-    font-size: 1em;
+    margin-bottom: 0.8em; /* Reduced space */
+    font-size: 0.95em; /* Reduced font size */
 }
 
 /* Notes section styles */
 .notes-list li {
-    margin-bottom: 0.7em;
-    font-size: 1em;
+    margin-bottom: 0.5em; /* Reduced space */
+    font-size: 0.95em; /* Reduced font size */
 }
 
 /* Contact section styles */
 #contact p {
     text-align: center;
-    font-size: 1.05em;
+    font-size: 1em; /* Reduced font size */
     margin-bottom: 0.5em;
 }
 
@@ -236,6 +230,9 @@ html {
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
+    body {
+        font-size: 15px; /* Slightly smaller base font on mobile */
+    }
     .profile-container {
         flex-direction: column;
         align-items: flex-start;
@@ -246,8 +243,12 @@ html {
     }
     main {
         padding: 0 0.5rem;
+        margin: 1.5rem auto; /* Reduced margin on mobile */
     }
     .name {
-        font-size: 2em;
+        font-size: 2em; /* Adjust name size for mobile */
+    }
+    h2 {
+        font-size: 1.1em; /* Adjust section title size for mobile */
     }
 }
