@@ -34,9 +34,9 @@ header {
 }
 
 .name {
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 2.4em;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif; /* Changed from Montserrat */
+    font-size: 2.6em; /* Slightly larger to compensate for lighter weight */
+    font-weight: 300; /* Use Poppins Light */
     letter-spacing: 1px;
     color: #232323;
     margin-bottom: 0.2em;
