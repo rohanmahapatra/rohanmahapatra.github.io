@@ -217,23 +217,54 @@ a:hover {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 1em;
     font-weight: 600;
-    color: #233C67;
-    margin-top: 1.2em;
-    margin-bottom: 0.3em;
+    color: #233C67; /* Original link blue */
+    margin-top: 1.5em; /* More space above the year */
+    margin-bottom: 0.5em; /* More space below the year */
     letter-spacing: 1px;
 }
 
 .pub-list {
-    margin-bottom: 0.6em;
-    list-style-type: none;
+    list-style-type: none; /* Remove default bullets */
     padding-left: 0;
+    margin-bottom: 0.6em;
 }
 
 .pub-list li {
-    margin-bottom: 0.5em;
+    margin-bottom: 1.5em; /* More space between publication entries */
     font-size: 0.95em;
-    padding-left: 1em;
-    text-indent: -1em; /* Creates hanging indent */
+    line-height: 1.5; /* Adjust line height within the entry */
+}
+
+.pub-title { /* Style for the linked paper title */
+    font-weight: 600; /* Make title slightly bolder */
+    color: #233C67; /* Use the default link color */
+    text-decoration: none;
+    display: block; /* Put title on its own line */
+    margin-bottom: 0.2em; /* Space below title */
+}
+
+.pub-title:hover {
+    text-decoration: underline;
+}
+
+.pub-authors { /* Style for the author list */
+    color: #333; /* Dark gray for authors */
+    margin-bottom: 0.2em; /* Space below authors */
+}
+
+.pub-authors b { /* Style for your bolded name */
+    color: #000; /* Make your name black */
+    font-weight: 600; /* Ensure it's bold */
+}
+
+.pub-venue { /* Style for the venue line */
+    color: #555; /* Lighter gray for venue */
+    font-size: 0.95em;
+}
+
+.conf-venue { /* Style for conference/journal names within the venue line */
+    color: #4682B4; /* SteelBlue color */
+    font-weight: 600;
 }
 
 /* Open Source section styles */
