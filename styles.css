@@ -51,13 +51,13 @@ header {
 }
 
 .header-links {
-    display: block; /* Makes links appear on a new line */
+    display: block;
     margin-top: 0.5rem;
-    font-size: 0.9em; /* Slightly smaller than description text */
+    font-size: 0.9em;
 }
 
 .header-links a {
-    color: #233C67; /* Use the standard link color */
+    color: #233C67;
     text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     font-size: 1.15em;
-    margin-bottom: 1.2em; /* Increased space below section title slightly */
+    margin-bottom: 1.2em;
     color: #232323;
 }
 
@@ -135,7 +135,7 @@ ul {
 }
 
 a {
-    color: #233C67;
+    color: #233C67; /* Default link color */
     text-decoration: none;
 }
 
@@ -151,27 +151,28 @@ a:hover {
     font-family: 'Inter', Arial, sans-serif;
     text-align: justify;
     /* max-width: 700px; Removed */
-    margin-left: auto; /* Keeps it centered if needed, but width is now 100% of container */
+    margin-left: auto;
     margin-right: auto;
 }
 
 .about-details {
-    margin-left: auto; /* Align with the main container */
+    margin-left: auto;
     margin-right: auto;
-    /* No width constraint needed, inherits from main */
+    font-size: 0.95em; /* Match other list items */
 }
 
 .about-details b {
-    display: block; /* Ensures bold titles are on their own line */
+    display: block;
     margin-bottom: 0.2em;
+    color: #232323; /* Ensure bold text is dark */
+    font-weight: 600; /* Standard bold */
 }
-
 
 /* Research section styles - Removed border-bottom */
 .research-item {
-    margin-bottom: 2em; /* Increased spacing slightly between items */
-    padding-bottom: 0; /* No padding needed if no border */
-    /* border-bottom: 1px solid #f0f0f0; Removed */
+    margin-bottom: 2em; /* Spacing between research items */
+    padding-bottom: 0;
+    /* border-bottom: Removed */
 }
 
 .paper-title {
@@ -188,9 +189,9 @@ a:hover {
     margin-bottom: 0.3em;
 }
 
-.conf-venue { /* New style for conference/journal names */
+.conf-venue { /* Style for conference/journal names */
     color: #4682B4; /* SteelBlue color */
-    font-weight: 600; /* Make it stand out a bit */
+    font-weight: 600;
 }
 
 
@@ -202,7 +203,7 @@ a:hover {
 
 .paper-links a {
     font-size: 0.9em;
-    color: #233C67;
+    color: #233C67; /* Match default link color */
     margin-right: 1em;
     font-family: 'Inter', Arial, sans-serif;
 }
@@ -224,15 +225,15 @@ a:hover {
 
 .pub-list {
     margin-bottom: 0.6em;
-    list-style-type: none; /* Removing default list bullets for cleaner look */
-    padding-left: 0; /* Remove padding if no bullets */
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .pub-list li {
-    margin-bottom: 0.5em; /* Slightly increased space */
+    margin-bottom: 0.5em;
     font-size: 0.95em;
-    padding-left: 1em; /* Add padding for alignment if needed */
-    text-indent: -1em; /* Creates hanging indent if desired */
+    padding-left: 1em;
+    text-indent: -1em; /* Creates hanging indent */
 }
 
 /* Open Source section styles */
